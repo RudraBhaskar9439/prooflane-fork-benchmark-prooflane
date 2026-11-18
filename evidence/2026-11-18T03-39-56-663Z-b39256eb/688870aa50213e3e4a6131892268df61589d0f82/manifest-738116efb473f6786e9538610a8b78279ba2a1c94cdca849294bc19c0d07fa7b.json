@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "runId": "2026-11-18T03-39-56-663Z-b39256eb",
+  "baseline": "838b1a555e59091607ce412b737a19058386d0cd",
+  "head": "688870aa50213e3e4a6131892268df61589d0f82",
+  "scenarioHash": "bc61e41688ed8b9b428613a18f1e0a40e9b23600dd13309af9cee90e09697d48",
+  "commitMetadataComplete": true,
+  "contentMetadataComplete": true,
+  "beforePassed": false,
+  "afterPassed": true,
+  "steps": {
+    "before": [],
+    "after": []
+  },
+  "runtimeErrors": {
+    "before": [],
+    "after": []
+  },
+  "recording": {
+    "before": {
+      "browser": "chromium",
+      "browserVersion": "159.0.8154.6",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "videoSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "nodeVersion": "26.3.1",
+      "nodeExecutable": "/opt/homebrew/Cellar/node/26.3.1/bin/node",
+      "device": null,
+      "presetDefaultBrowser": null,
+      "deviceEmulation": false,
+      "physicalDevice": false
+    },
+    "after": {
+      "browser": "chromium",
+      "browserVersion": "159.0.8154.6",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "videoSize": {
+        "width": 1280,
+        "height": 800
+      },
+      "nodeVersion": "26.3.1",
+      "nodeExecutable": "/opt/homebrew/Cellar/node/26.3.1/bin/node",
+      "device": null,
+      "presetDefaultBrowser": null,
+      "deviceEmulation": false,
+      "physicalDevice": false
+    }
+  },
+  "commandDisplay": {
+    "before": null,
+    "after": null
+  },
+  "files": [
+    {
+      "phase": "before",
+      "kind": "video",
+      "path": "before/video.mp4",
+      "name": "video.mp4",
+      "bytes": 17597,
+      "sha256": "1e220acd7a66266fb55473c11df31d49ddbd8db085be33d29a8b18ea5433e4e5",
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "durationSeconds": 5.2
+    },
+    {
+      "phase": "before",
+      "kind": "screenshot",
+      "path": "before/screenshot.png",
+      "name": "screenshot.png",
+      "bytes": 20723,
+      "sha256": "1f131ac84145b50ef75a2bbeeb1ce8608b5a5556763b3403cf6f07113fac1a22"
+    },
+    {
+      "phase": "before",
+      "kind": "trace",
+      "path": "before/trace.zip",
+      "name": "trace.zip",
+      "bytes": 414131,
+      "sha256": "37bea66da5931f9c4a515e23b6acd54228f17c0abc20e31fb9c7a6e2ba0d96be"
+    },
+    {
+      "phase": "before",
+      "kind": "rawVideo",
+      "path": "before/page@3746037e80ccc6849fbf43253d8214c6.webm",
+      "name": "page@3746037e80ccc6849fbf43253d8214c6.webm",
+      "bytes": 82821,
+      "sha256": "a15e2a5c7afbd2c83205c4b3404c44cec35f6b268e66f5318fefb38eb337c2ac"
+    },
+    {
+      "phase": "after",
+      "kind": "video",
+      "path": "attempt-1/after/video.mp4",
+      "name": "video.mp4",
+      "bytes": 12633,
+      "sha256": "a2afdbc7d434cb16412ba8ad6aef4d90185929723639e375ea323d70b5f933a9",
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 800,
+      "durationSeconds": 1.56
+    },
+    {
+      "phase": "after",
+      "kind": "screenshot",
+      "path": "attempt-1/after/screenshot.png",
+      "name": "screenshot.png",
+      "bytes": 22922,
+      "sha256": "e9dce211e380b5fb3550d6dd7fa8960182f5d2ea81eb89f2d8497ca63c046c43"
+    },
+    {
+      "phase": "after",
+      "kind": "trace",
+      "path": "attempt-1/after/trace.zip",
+      "name": "trace.zip",
+      "bytes": 390213,
+      "sha256": "2cba3c18761c3502f40b3b33efcf075c05861067945c2cab94b643c39e22fc35"
+    },
+    {
+      "phase": "after",
+      "kind": "rawVideo",
+      "path": "attempt-1/after/page@87ec91eeee7d643413d8516ed633b367.webm",
+      "name": "page@87ec91eeee7d643413d8516ed633b367.webm",
+      "bytes": 39468,
+      "sha256": "6f9b0a12aac3264725616771e100673d91e266e4e66cfb81b1dbc76ac91dde9f"
+    },
+    {
+      "kind": "comparison",
+      "path": "comparison.mp4",
+      "name": "comparison.mp4",
+      "sha256": "cbd28fa6670257eed7fac2a345188c9601189694e6515e3c7d2e0dc3fd9cff95",
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 400,
+      "durationSeconds": 5.2,
+      "bytes": 14561
+    }
+  ]
+}
