@@ -1,0 +1,57 @@
+{
+  "id": "2026-11-18T03-39-56-663Z-b39256eb",
+  "base": "838b1a555e59091607ce412b737a19058386d0cd",
+  "head": "688870aa50213e3e4a6131892268df61589d0f82",
+  "scenarioHash": "bc61e41688ed8b9b428613a18f1e0a40e9b23600dd13309af9cee90e09697d48",
+  "beforePassed": false,
+  "afterPassed": true,
+  "checks": [
+    {
+      "command": null,
+      "sha256": "5b277f4ba99261d6e74de44599dc3d55407fe3c8aba5d43104fef9b2e8541329",
+      "reusable": false,
+      "label": "Configured command (SHA-256 5b277f4ba992)",
+      "policy": "safe-command-v1",
+      "code": 0
+    }
+  ],
+  "review": {
+    "verdict": "pass",
+    "summary": "Deterministic replay in a separate process confirmed one Chromium click increments the candidate by one.",
+    "findings": [],
+    "_metadata": {
+      "invocationId": "2a3bbd2b-9607-4aac-a2fc-cdd09b276b69",
+      "provider": "publication-control",
+      "role": "review",
+      "model": null,
+      "requestedModel": null,
+      "reportedModel": null,
+      "reasoning": null,
+      "startedAt": "2026-11-18T03:40:05.373Z",
+      "finishedAt": "2026-11-18T03:40:07.063Z",
+      "durationMs": 1677,
+      "usage": {
+        "inputTokens": null,
+        "outputTokens": null,
+        "totalTokens": null,
+        "costUsd": null
+      },
+      "usageKnown": false,
+      "costKnown": false,
+      "execution": {
+        "workspace": "read-only"
+      },
+      "verification": {
+        "orchestratorCi": {
+          "available": true,
+          "origin": "prooflane-orchestrator",
+          "candidateSha": "688870aa50213e3e4a6131892268df61589d0f82",
+          "completedAt": "2026-11-18T03:40:04.080Z",
+          "checks": 1,
+          "executedBy": "orchestrator"
+        }
+      }
+    }
+  },
+  "usage": null
+}
